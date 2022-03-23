@@ -1,8 +1,8 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
 import Sidebar from '../components/Sidebar'
+import Feed from '../components/Feed'
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <div className="">
       <Head>
@@ -10,9 +10,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="mx-auto flex min-h-screen max-w-[1500px] bg-black ">
-        {/* Sidebar */}
         <Sidebar />
-        {/* Feeds */}
+        <Feed />
         {/* Widgets */}
       </main>
     </div>

@@ -40,7 +40,11 @@ function Sidebar() {
         Tweet
       </button>
       <div className="hoverAnimation mt-auto flex items-center justify-center text-[#d9d9d9] xl:ml-auto xl:-mr-4 ">
-        <img src="" alt="" className="h-10 w-10 rounded-full xl:mr-2.5" />
+        <img
+          src="https://i.ibb.co/yN3BSLJ/IMG-20210315-171207.jpg"
+          alt="dp"
+          className="h-10 w-10 rounded-full xl:mr-2.5"
+        />
         <div className="hidden leading-5 xl:inline">
           <h4 className="font-bold">User Name</h4>
           <p className="text-[#6e767d]">@username</p>

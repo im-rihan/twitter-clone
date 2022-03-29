@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="">
       <Head>
-        <title>Twitter</title>
+        <title>Home / Twitter</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="mx-auto flex min-h-screen max-w-[1500px] bg-black ">

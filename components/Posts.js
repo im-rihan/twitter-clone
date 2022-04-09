@@ -75,7 +75,10 @@ function Posts({ id, post, postPage }) {
     }
   }
   return (
-    <div className="flex cursor-pointer border-b border-gray-700 p-3">
+    <div
+      className="flex cursor-pointer border-b border-gray-700 p-3"
+      onClick={() => router.push(`/${id}`)}
+    >
       {!postPage && (
         <img
           src={post?.userImg}
